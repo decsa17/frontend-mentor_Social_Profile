@@ -81,7 +81,7 @@ body {
     margin-bottom: 10%;
 }
 
-.social > button {
+.social > a {
     width: 80%;
     border: none;
     border-radius: 0.25rem;
@@ -91,9 +91,11 @@ body {
     font-weight: 500;
     background-color: var(--grey700);
     padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
 }
 
-.social > button:hover {
+.social > a:hover {
     color: var(--grey900);
     background-color: var(--green);
     font-weight: 600;
